@@ -22,7 +22,7 @@ namespace DataReceivedHandler
         static ArrayList buffer = new ArrayList();
         static string text = "";
         static int anzahl = 1;
-      //  public static Thread doWork = new Thread(DoWork);
+      ////  public static Thread doWork = new Thread(DoWork);
         public static Thread nextWork;
 
         private static ManualResetEvent event_dowork = new ManualResetEvent(true);
