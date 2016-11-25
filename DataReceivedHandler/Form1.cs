@@ -22,6 +22,7 @@ namespace DataReceivedHandler
         static ArrayList buffer = new ArrayList();
         static string text = "";
         static int anzahl = 1;
+        int githubtest = 0;
       ////  public static Thread doWork = new Thread(DoWork);
         public static Thread nextWork;
 
