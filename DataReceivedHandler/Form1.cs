@@ -115,6 +115,12 @@ namespace DataReceivedHandler
         private void button2_Click(object sender, EventArgs e)
         {
             Console.WriteLine(text);
+            for(int i = 0; i < writelist.Length; i++)
+            {
+                richTextBox1.AppendText(writelist[i] + " \n");
+
+            }
+            richTextBox1.AppendText(text);
         }
         //// for (int i = 0; i < buffer.Length; i++) Console.Write(buffer[i]);
         //buffer.Add(charbytes);
